@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-czyq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0070-tenant/ci1t-830-0070-app/devfile-sample-czyq@sha256:e663bb47d87a54f083dfb64f6b4a84b6a41d579901457453a517667f34bd4580
+        name: my-nodejs
+        resources: {}
+status: {}
